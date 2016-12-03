@@ -1,17 +1,11 @@
 <?php
+// For composer dependencies
+require 'vendor/autoload.php';
 
 require_once( 'lib/init.php' );
 require_once( 'lib/custom.php' );
-
-// Custom admin login logo
-function custom_login_logo() {
-	echo '<style type="text/css">
-	    h1 a { background-image: url(' . get_bloginfo( 'template_directory' ) . '/assets/img/adminlogo.png) !important; height: auto;}
-	    body.login{ background: #fff; }
-	    </style>';
-}
-
-add_action( 'login_head', 'custom_login_logo' );
+require_once( 'lib/theme-api.php' );
+require_once( 'lib/theme-rewrite.php' );
 
 /*
 add_filter('acf/settings/load_json', function($paths) {

@@ -1,0 +1,6 @@
+/_design/
+/.idea
+.sass-cache
+/vendor
+/assets/vendor
+/node_modules
