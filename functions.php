@@ -4,6 +4,7 @@ require 'vendor/autoload.php';
 
 require_once( 'lib/init.php' );
 require_once( 'lib/custom.php' );
+require_once( 'lib/theme-helpers.php' );
 require_once( 'lib/theme-api.php' );
 require_once( 'lib/theme-rewrite.php' );
 
