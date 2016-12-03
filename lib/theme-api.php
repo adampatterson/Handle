@@ -1,7 +1,7 @@
 <?php
-namespace Axe;
+namespace Handle;
 
-class AxeAPI
+class HandleAPI
 {
 
     public function __construct()
@@ -24,4 +24,4 @@ class AxeAPI
     }
 }
 
-new AxeAPI;
+new HandleAPI;

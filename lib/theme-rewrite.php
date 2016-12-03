@@ -1,7 +1,7 @@
 <?php
-namespace Axe;
+namespace Handle;
 
-class AxeRewrites
+class HandleRewrites
 {
 
     public function __construct()
@@ -33,4 +33,4 @@ class AxeRewrites
     }
 }
 
-new AxeRewrites;
+new HandleRewrites;
