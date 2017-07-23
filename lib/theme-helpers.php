@@ -7,3 +7,11 @@ function __t() {
 	return get_stylesheet_directory_uri() . '/';
 }
 */
+
+// By default the WordPress admin bar has been disabled.
+// Uncomment to enable the admin bar.
+/*
+function enable_admin_bar() {
+    show_admin_bar( true );
+}
+*/
