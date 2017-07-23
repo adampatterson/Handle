@@ -1,0 +1,13 @@
+{
+  "name": "handle",
+  "description": "",
+  "version": "0.1.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.7",
+    "jquery": "latest"
+  }
+}
