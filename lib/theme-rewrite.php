@@ -22,7 +22,7 @@ class HandleRewrites
      */
     public function __construct()
     {
-        add_filter('query_vars', array($this, 'rewrite_add_var'));
+//        add_filter('query_vars', array($this, 'rewrite_add_var')); // Seems unnecessary
         add_action('init', array($this, 'rewrite_rule'), 0, 0.1);
         add_action('template_include', array($this, 'rewrite_catch'), 0, 0.1);
     }
