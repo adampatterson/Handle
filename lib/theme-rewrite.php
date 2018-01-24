@@ -1,7 +1,7 @@
 <?php
 
 /*
- * It''s required that the permalinks be flushed!
+ * It's required that the permalinks be flushed!
  *
  * https://gist.github.com/kasparsd/2924900
  * http://wordpress.stackexchange.com/questions/26388/how-to-create-custom-url-routes
@@ -9,7 +9,7 @@
  *
  * https://codex.wordpress.org/Rewrite_API/add_rewrite_tag
  * https://developer.wordpress.org/reference/functions/add_rewrite_tag/
- * * https://codex.wordpress.org/Function_Reference/flush_rewrite_rules
+ * https://codex.wordpress.org/Function_Reference/flush_rewrite_rules
  */
 
 namespace Handle;
