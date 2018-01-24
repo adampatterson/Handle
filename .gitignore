@@ -5,5 +5,4 @@
 /assets/vendor
 /node_modules
 /strathcom-inventory
-/lib/theme-rewrite.php
 .DS_Store
