@@ -15,6 +15,9 @@ echo '<!-- template: index/no_posts -->'; ?>
                         <article>
                             <h1>Works!</h1>
                             <p><?= 'This vehicle has the ID of ' . $stock_number; ?></p>
+                            <?php
+                                var_dump(Handle\HandleRewrites::test_variables())
+                            ?>
                         </article>
                     </section>
                 </div>

@@ -60,9 +60,8 @@ class HandleRewrites
     /**
      * @return array
      */
-    public function test_variables()
+    public static function test_variables()
     {
-
         global $wp_query;
 
         return [
