@@ -3,9 +3,7 @@
 /*
  * It's required that the permalinks be flushed!
  *
- * https://gist.github.com/kasparsd/2924900
- * http://wordpress.stackexchange.com/questions/26388/how-to-create-custom-url-routes
- * https://wordpress.stackexchange.com/questions/58683/how-to-create-a-front-end-user-profile-with-a-friendly-permalink
+ * https://gist.github.com/kasparsd/2924900 - Dynamic based on custom taxonomy
  *
  * https://codex.wordpress.org/Rewrite_API/add_rewrite_tag
  * https://developer.wordpress.org/reference/functions/add_rewrite_tag/
