@@ -22,7 +22,7 @@ class HandleRewrites
     {
 //        add_filter('query_vars', array($this, 'rewrite_add_var')); // Seems unnecessary
         add_action('init', array($this, 'rewrite_rule'), 0, 0.1);
-        add_action('template_include', array($this, 'rewrite_catch'), 0, 0.1);
+        add_action('template_include', array($this, 'rewrite_catch_template'));
     }
 
     public function rewrite_add_var( $vars )
@@ -47,13 +47,16 @@ class HandleRewrites
             'index.php?post_type=inventory&stock_type=used&vehicle_slug=$matches[1]&vehicle_id=$matches[2]', 'top');
     }
 
-    public function rewrite_catch()
+    public function rewrite_catch_template($template = null)
     {
         global $wp_query;
 
         if (array_key_exists('vehicle_slug', $wp_query->query_vars)) {
+            // Checks to see if the template is in the parent theme otherwise it uses the child theme location
             include(get_template_part_acf('templates/template', 'inventory'));
             exit;
+        } else {
+            include $template;
         }
     }
 
