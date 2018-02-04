@@ -2,12 +2,12 @@
 // For composer dependencies
 require 'vendor/autoload.php';
 
-require_once( 'lib/init.php' );
-require_once( 'lib/custom.php' );
-require_once( 'lib/theme-helpers.php' );
-require_once( 'lib/theme-api.php' );
-require_once( 'lib/theme-rewrite.php' );
-require_once( 'lib/theme-media.php' );
+require_once('lib/init.php');
+require_once('lib/custom.php');
+require_once('lib/theme-helpers.php');
+require_once('lib/theme-api.php');
+require_once('lib/theme-rewrite.php');
+require_once('lib/theme-media.php');
 
 /*
 add_filter('acf/settings/load_json', function($paths) {
@@ -25,3 +25,12 @@ add_filter('acf/settings/load_json', function($paths) {
 });
 */
 
+/*
+ * Used to clear the permalinks so that the custom rewrite rules will work.
+add_action( 'after_switch_theme', 'reflush_rules' );
+
+function reflush_rules() {
+    global $wp_rewrite;
+    $wp_rewrite->flush_rules();
+}
+*/

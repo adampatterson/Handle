@@ -7,7 +7,7 @@
 		"uuidString": "72B07BFF-229F-4A49-9031-ABF7CE636EC0"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.bowerrc": {
 		"cB": 0,
@@ -378,6 +378,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/templates\/partials\/.gitkeep",
+		"oF": 0
+		},
+	"\/templates\/template-inventory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/template-inventory.php",
 		"oF": 0
 		},
 	"\/vendor\/autoload.php": {
@@ -1024,6 +1031,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
