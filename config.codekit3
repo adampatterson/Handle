@@ -7,7 +7,7 @@
 		"uuidString": "72B07BFF-229F-4A49-9031-ABF7CE636EC0"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.bowerrc": {
 		"cB": 0,
@@ -57,6 +57,16 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/.gitkeep",
 		"oF": 0
+		},
+	"\/assets\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,
@@ -129,6 +139,30 @@
 		"oA": 0,
 		"oAP": "\/lib\/theme-rewrite.php",
 		"oF": 0
+		},
+	"\/mix-manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/mix-manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/README.md": {
 		"cB": 0,
@@ -450,6 +484,30 @@
 		"oA": 0,
 		"oAP": "\/vendor\/composer\/LICENSE",
 		"oF": 0
+		},
+	"\/webpack.mix.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/webpack.mix-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/yarn-error.log": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/yarn-error.log",
+		"oF": 0
+		},
+	"\/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/yarn.lock",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -468,6 +526,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
