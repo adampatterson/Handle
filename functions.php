@@ -1,6 +1,6 @@
 <?php
 // For composer dependencies
-require 'vendor/autoload.php';
+// require 'vendor/autoload.php';
 
 require_once('lib/init.php');
 require_once('lib/custom.php');
