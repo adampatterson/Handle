@@ -34,3 +34,12 @@ function reflush_rules() {
     $wp_rewrite->flush_rules();
 }
 */
+
+/*
+// update_option('siteurl','https://wordpress.local');
+// update_option('home','https://wordpress.local');
+
+global $wp_rewrite;
+$wp_rewrite->flush_rules(
+);
+*/
