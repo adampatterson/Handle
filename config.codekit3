@@ -7,11 +7,12 @@
 		"uuidString": "72B07BFF-229F-4A49-9031-ABF7CE636EC0"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.bowerrc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.bowerrc",
 		"oF": 0
@@ -19,13 +20,39 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.idea/codeStyles/Project.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.idea/codeStyles/Project.xml",
+		"oF": 0
+		},
+	"/.idea/dbnavigator.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.idea/dbnavigator.xml",
+		"oF": 0
+		},
+	"/.idea/dictionaries/adampatterson.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.idea/dictionaries/adampatterson.xml",
 		"oF": 0
 		},
 	"/.idea/encodings.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/encodings.xml",
 		"oF": 0
@@ -33,6 +60,7 @@
 	"/.idea/Handle.iml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/Handle.iml",
 		"oF": 0
@@ -40,6 +68,7 @@
 	"/.idea/misc.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/misc.xml",
 		"oF": 0
@@ -47,6 +76,7 @@
 	"/.idea/modules.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/modules.xml",
 		"oF": 0
@@ -54,6 +84,7 @@
 	"/.idea/php.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/php.xml",
 		"oF": 0
@@ -61,6 +92,7 @@
 	"/.idea/vcs.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/vcs.xml",
 		"oF": 0
@@ -68,6 +100,7 @@
 	"/.idea/workspace.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.idea/workspace.xml",
 		"oF": 0
@@ -75,6 +108,7 @@
 	"/acf-json/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/acf-json/.gitkeep",
 		"oF": 0
@@ -82,6 +116,7 @@
 	"/assets/css/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/css/.gitkeep",
 		"oF": 0
@@ -89,6 +124,7 @@
 	"/assets/fonts/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/.gitkeep",
 		"oF": 0
@@ -96,6 +132,7 @@
 	"/assets/img/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/img/.gitkeep",
 		"oF": 0
@@ -103,11 +140,13 @@
 	"/assets/js/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/js/.gitkeep",
 		"oF": 0
 		},
 	"/assets/js/app.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -136,6 +175,7 @@
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions.php",
 		"oF": 0
@@ -143,6 +183,7 @@
 	"/lib/custom.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/custom.php",
 		"oF": 0
@@ -150,20 +191,15 @@
 	"/lib/init.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/init.php",
-		"oF": 0
-		},
-	"/lib/plugins-core.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/lib/plugins-core.php",
 		"oF": 0
 		},
 	"/lib/theme-api.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/theme-api.php",
 		"oF": 0
@@ -171,6 +207,7 @@
 	"/lib/theme-helpers.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/theme-helpers.php",
 		"oF": 0
@@ -178,6 +215,7 @@
 	"/lib/theme-media.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/theme-media.php",
 		"oF": 0
@@ -185,6 +223,7 @@
 	"/lib/theme-rewrite.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/theme-rewrite.php",
 		"oF": 0
@@ -221,6 +260,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/README.html",
 		"oF": 0,
@@ -245,6 +285,7 @@
 	"/src/js/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/src/js/.gitkeep",
 		"oF": 0
@@ -252,11 +293,13 @@
 	"/src/scss/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/src/scss/.gitkeep",
 		"oF": 0
 		},
 	"/strathcom-inventory/Gruntfile.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -269,6 +312,7 @@
 	"/strathcom-inventory/instance.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/instance.php",
 		"oF": 0
@@ -284,6 +328,7 @@
 	"/strathcom-inventory/php/class-accordions.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-accordions.php",
 		"oF": 0
@@ -291,6 +336,7 @@
 	"/strathcom-inventory/php/class-admin.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-admin.php",
 		"oF": 0
@@ -298,6 +344,7 @@
 	"/strathcom-inventory/php/class-custom-post-type.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-custom-post-type.php",
 		"oF": 0
@@ -305,6 +352,7 @@
 	"/strathcom-inventory/php/class-customizer.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-customizer.php",
 		"oF": 0
@@ -312,6 +360,7 @@
 	"/strathcom-inventory/php/class-dealership-settings.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-dealership-settings.php",
 		"oF": 0
@@ -319,6 +368,7 @@
 	"/strathcom-inventory/php/class-exception.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-exception.php",
 		"oF": 0
@@ -326,6 +376,7 @@
 	"/strathcom-inventory/php/class-gf-field-vehicle-id.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-gf-field-vehicle-id.php",
 		"oF": 0
@@ -333,6 +384,7 @@
 	"/strathcom-inventory/php/class-links.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-links.php",
 		"oF": 0
@@ -340,6 +392,7 @@
 	"/strathcom-inventory/php/class-network-settings.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-network-settings.php",
 		"oF": 0
@@ -347,6 +400,7 @@
 	"/strathcom-inventory/php/class-pages.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-pages.php",
 		"oF": 0
@@ -354,6 +408,7 @@
 	"/strathcom-inventory/php/class-plugin-base.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-plugin-base.php",
 		"oF": 0
@@ -361,6 +416,7 @@
 	"/strathcom-inventory/php/class-plugin.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-plugin.php",
 		"oF": 0
@@ -368,6 +424,7 @@
 	"/strathcom-inventory/php/class-pricing-alerts.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-pricing-alerts.php",
 		"oF": 0
@@ -375,6 +432,7 @@
 	"/strathcom-inventory/php/class-pricing.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-pricing.php",
 		"oF": 0
@@ -382,6 +440,7 @@
 	"/strathcom-inventory/php/class-search-results-page.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-search-results-page.php",
 		"oF": 0
@@ -389,6 +448,7 @@
 	"/strathcom-inventory/php/class-seo.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-seo.php",
 		"oF": 0
@@ -396,6 +456,7 @@
 	"/strathcom-inventory/php/class-similar-vehicles.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-similar-vehicles.php",
 		"oF": 0
@@ -403,6 +464,7 @@
 	"/strathcom-inventory/php/class-vehicle-display-page.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/php/class-vehicle-display-page.php",
 		"oF": 0
@@ -410,6 +472,7 @@
 	"/strathcom-inventory/phpunit.xml.dist": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/phpunit.xml.dist",
 		"oF": 0
@@ -422,6 +485,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/readme.html",
 		"oF": 0,
@@ -435,6 +499,7 @@
 	"/strathcom-inventory/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/readme.txt",
 		"oF": 0
@@ -442,6 +507,7 @@
 	"/strathcom-inventory/strathcom-inventory.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/strathcom-inventory/strathcom-inventory.php",
 		"oF": 0
@@ -459,6 +525,7 @@
 	"/templates/partials/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/partials/.gitkeep",
 		"oF": 0
@@ -466,6 +533,7 @@
 	"/templates/template-inventory.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/template-inventory.php",
 		"oF": 0
@@ -473,6 +541,7 @@
 	"/vendor/autoload.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/autoload.php",
 		"oF": 0
@@ -480,6 +549,7 @@
 	"/vendor/composer/autoload_classmap.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/autoload_classmap.php",
 		"oF": 0
@@ -487,6 +557,7 @@
 	"/vendor/composer/autoload_namespaces.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/autoload_namespaces.php",
 		"oF": 0
@@ -494,6 +565,7 @@
 	"/vendor/composer/autoload_psr4.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/autoload_psr4.php",
 		"oF": 0
@@ -501,6 +573,7 @@
 	"/vendor/composer/autoload_real.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/autoload_real.php",
 		"oF": 0
@@ -508,6 +581,7 @@
 	"/vendor/composer/autoload_static.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/autoload_static.php",
 		"oF": 0
@@ -515,6 +589,7 @@
 	"/vendor/composer/ClassLoader.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/ClassLoader.php",
 		"oF": 0
@@ -530,11 +605,13 @@
 	"/vendor/composer/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/composer/LICENSE",
 		"oF": 0
 		},
 	"/webpack.mix.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -547,6 +624,7 @@
 	"/yarn-error.log": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/yarn-error.log",
 		"oF": 0
@@ -554,6 +632,7 @@
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/yarn.lock",
 		"oF": 0
@@ -653,6 +732,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -672,6 +757,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -722,6 +837,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -755,10 +873,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -1707,6 +1831,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2369,6 +2497,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2390,6 +2519,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -2412,7 +2542,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2451,6 +2582,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2460,7 +2592,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2481,7 +2614,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2510,7 +2644,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2598,16 +2733,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -2619,14 +2758,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2649,6 +2788,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -2674,10 +2817,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -2686,13 +2825,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -2704,6 +2843,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -2726,13 +2869,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -2741,10 +2884,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -2768,6 +2907,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -2802,6 +2945,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -2811,6 +2958,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2838,15 +2989,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
