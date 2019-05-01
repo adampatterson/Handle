@@ -1,10 +1,11 @@
 <?php
 $data         = get_fields();
+$post         = get_post();
 $stock_number = get_query_var('vehicle_id', 0);
 
 include(get_template_part_acf('templates/partials/header'));
 
-echo '<!-- template: index/no_posts -->'; ?>
+echo '<!-- template: template/template-inventory -->'; ?>
 
     <div class="wrapper">
         <div class="container">
@@ -16,7 +17,7 @@ echo '<!-- template: index/no_posts -->'; ?>
                             <h1>Works!</h1>
                             <p><?= 'This vehicle has the ID of ' . $stock_number; ?></p>
                             <?php
-                                var_dump(Handle\HandleRewrites::test_variables())
+                            dd(Handle\HandleRewrites::test_variables())
                             ?>
                         </article>
                     </section>

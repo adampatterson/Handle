@@ -5,11 +5,12 @@
 require_once('lib/init.php');
 require_once('lib/custom.php');
 require_once('lib/theme-helpers.php');
-require_once('lib/theme-api.php');
-require_once('lib/theme-rewrite.php');
 require_once('lib/theme-media.php');
 
-/*
+require_once('lib/theme-api.php');
+require_once('lib/theme-rewrite.php');
+
+
 add_filter('acf/settings/load_json', function($paths) {
     $paths = array(get_template_directory() . '/acf-json');
 
@@ -23,7 +24,6 @@ add_filter('acf/settings/load_json', function($paths) {
 
     return $paths;
 });
-*/
 
 /*
  * Used to clear the permalinks so that the custom rewrite rules will work.
