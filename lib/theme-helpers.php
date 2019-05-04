@@ -8,7 +8,6 @@ function __t() {
 }
 */
 
-
 // By default the WordPress admin bar has been disabled.
 // Uncomment to enable the admin bar.
 /*
