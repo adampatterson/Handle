@@ -1,5 +1,9 @@
 {
     "require": {
 
+    },
+    "autoload": {
+        "psr-4": { "Handle\\": "./lib" },
+        "files": [ "./lib/Helpers.php" ]
     }
 }
