@@ -17,7 +17,7 @@ echo '<!-- template: template/template-inventory -->'; ?>
                             <h1>Works!</h1>
                             <p><?= 'This vehicle has the ID of ' . $stock_number; ?></p>
                             <?php
-                            dd(Handle\HandleRewrites::test_variables())
+                            dd(Handle\Custom\Rewrites::test_variables())
                             ?>
                         </article>
                     </section>
