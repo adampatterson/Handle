@@ -10,9 +10,9 @@
  * https://codex.wordpress.org/Function_Reference/flush_rewrite_rules
  */
 
-namespace Handle;
+namespace Handle\Custom;
 
-class HandleRewrites
+class Rewrites
 {
 
     /**
@@ -23,11 +23,18 @@ class HandleRewrites
 //        add_filter('query_vars', array($this, 'rewrite_add_var')); // Seems unnecessary
         add_action('init', array($this, 'rewrite_rule'), 0, 0.1);
         add_action('template_include', array($this, 'rewrite_catch_template'));
+        add_action('after_switch_theme', array($this, 'reflush_rules'));
     }
 
-    public function rewrite_add_var( $vars )
+    /**
+     * @param $vars
+     *
+     * @return array
+     */
+    public function rewrite_add_var($vars)
     {
         $vars[] = 'inventory';
+
         return $vars;
     }
 
@@ -41,13 +48,14 @@ class HandleRewrites
         add_rewrite_tag('%vehicle_id%', '([0-9]+)');
 
         // Create custom rules based on the permalink.
-        add_rewrite_rule('inventory/new/([^/]*)/([0-9]+)/?',
-            'index.php?post_type=inventory&stock_type=new&vehicle_slug=$matches[1]&vehicle_id=$matches[2]', 'top');
-        add_rewrite_rule('inventory/used/([^/]*)/([0-9]+)/?',
-            'index.php?post_type=inventory&stock_type=used&vehicle_slug=$matches[1]&vehicle_id=$matches[2]', 'top');
+        add_rewrite_rule('inventory/new/([^/]*)/([0-9]+)/?', 'index.php?post_type=inventory&stock_type=new&vehicle_slug=$matches[1]&vehicle_id=$matches[2]', 'top');
+        add_rewrite_rule('inventory/used/([^/]*)/([0-9]+)/?', 'index.php?post_type=inventory&stock_type=used&vehicle_slug=$matches[1]&vehicle_id=$matches[2]', 'top');
     }
 
-    public function rewrite_catch_template($template = null)
+    /**
+     * @param null $template
+     */
+    public function rewrite_catch_template($template)
     {
         global $wp_query;
 
@@ -55,9 +63,18 @@ class HandleRewrites
             // Checks to see if the template is in the parent theme otherwise it uses the child theme location
             include(get_template_part_acf('templates/template', 'inventory'));
             exit;
-        } else {
+        } elseif($template !== null){
             include $template;
         }
+    }
+
+    /**
+     * Used to clear the permalinks so that the custom rewrite rules will work.
+     */
+    public function reflush_rules()
+    {
+        global $wp_rewrite;
+        $wp_rewrite->flush_rules();
     }
 
     /**
@@ -75,4 +92,4 @@ class HandleRewrites
     }
 }
 
-new HandleRewrites;
+new Rewrites;
