@@ -55,7 +55,7 @@ class Rewrites
     /**
      * @param null $template
      */
-    public function rewrite_catch_template($template = null)
+    public function rewrite_catch_template($template)
     {
         global $wp_query;
 
@@ -63,7 +63,7 @@ class Rewrites
             // Checks to see if the template is in the parent theme otherwise it uses the child theme location
             include(get_template_part_acf('templates/template', 'inventory'));
             exit;
-        } else {
+        } elseif($template !== null){
             include $template;
         }
     }
