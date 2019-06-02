@@ -298,220 +298,6 @@
 		"oAP": "/src/scss/.gitkeep",
 		"oF": 0
 		},
-	"/strathcom-inventory/Gruntfile.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/Gruntfile-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/strathcom-inventory/instance.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/instance.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/strathcom-inventory/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/strathcom-inventory/php/class-accordions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-accordions.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-admin.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-admin.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-custom-post-type.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-custom-post-type.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-customizer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-customizer.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-dealership-settings.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-dealership-settings.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-exception.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-exception.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-gf-field-vehicle-id.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-gf-field-vehicle-id.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-links.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-links.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-network-settings.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-network-settings.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-pages.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-pages.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-plugin-base.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-plugin-base.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-plugin.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-plugin.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-pricing-alerts.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-pricing-alerts.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-pricing.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-pricing.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-search-results-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-search-results-page.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-seo.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-seo.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-similar-vehicles.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-similar-vehicles.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/php/class-vehicle-display-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/php/class-vehicle-display-page.php",
-		"oF": 0
-		},
-	"/strathcom-inventory/phpunit.xml.dist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/phpunit.xml.dist",
-		"oF": 0
-		},
-	"/strathcom-inventory/readme.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/readme.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/strathcom-inventory/readme.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/readme.txt",
-		"oF": 0
-		},
-	"/strathcom-inventory/strathcom-inventory.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/strathcom-inventory/strathcom-inventory.php",
-		"oF": 0
-		},
 	"/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -554,6 +340,14 @@
 		"oAP": "/vendor/composer/autoload_classmap.php",
 		"oF": 0
 		},
+	"/vendor/composer/autoload_files.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/vendor/composer/autoload_files.php",
+		"oF": 0
+		},
 	"/vendor/composer/autoload_namespaces.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -593,14 +387,6 @@
 		"oA": 0,
 		"oAP": "/vendor/composer/ClassLoader.php",
 		"oF": 0
-		},
-	"/vendor/composer/installed.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/vendor/composer/installed-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"/vendor/composer/LICENSE": {
 		"cB": 0,
