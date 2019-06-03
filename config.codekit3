@@ -359,14 +359,6 @@
 		"oAP": "/vendor/composer/autoload_classmap.php",
 		"oF": 0
 		},
-	"/vendor/composer/autoload_files.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/vendor/composer/autoload_files.php",
-		"oF": 0
-		},
 	"/vendor/composer/autoload_namespaces.php": {
 		"cB": 0,
 		"ft": 8192,
