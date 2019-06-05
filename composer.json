@@ -1,8 +1,9 @@
 {
-    "require": {
-
-    },
-    "autoload": {
-        "psr-4": { "Handle\\": "./lib" }
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Handle\\": "./lib"
     }
+  }
 }

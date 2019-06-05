@@ -113,6 +113,14 @@
 		"oAP": "/acf-json/.gitkeep",
 		"oF": 0
 		},
+	"/acf-json/group_5a6a682995efd.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/acf-json/group_5a6a682995efd-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/assets/css/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,

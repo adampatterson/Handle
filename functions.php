@@ -9,7 +9,6 @@ if (class_exists('Handle\\Init')) :
     Handle\Init::register_services();
 endif;
 
-
 //add_filter('acf/settings/load_json', function($paths) {
 //    $paths = array(get_template_directory() . '/acf-json');
 //
