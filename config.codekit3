@@ -97,6 +97,14 @@
 		"oAP": "/.idea/vcs.xml",
 		"oF": 0
 		},
+	"/.idea/woocommerce/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.idea/woocommerce/.gitkeep",
+		"oF": 0
+		},
 	"/.idea/workspace.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -335,12 +343,44 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/templates/archive-movies.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/archive-movies.php",
+		"oF": 0
+		},
+	"/templates/format-video.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/format-video.php",
+		"oF": 0
+		},
+	"/templates/loop-movies.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/loop-movies.php",
+		"oF": 0
+		},
 	"/templates/partials/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/partials/.gitkeep",
+		"oF": 0
+		},
+	"/templates/single-movies.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/single-movies.php",
 		"oF": 0
 		},
 	"/templates/template-inventory.php": {
@@ -425,22 +465,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/yarn-error.log": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/yarn-error.log",
-		"oF": 0
-		},
-	"/yarn.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/yarn.lock",
-		"oF": 0
 		}
 	},
 "hooks": [
