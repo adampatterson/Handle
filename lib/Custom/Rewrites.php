@@ -20,9 +20,9 @@ class Rewrites
      */
     public function __construct()
     {
-//        add_filter('query_vars', array($this, 'rewrite_add_var')); // Seems unnecessary
+        add_filter('query_vars', array($this, 'rewrite_add_var')); // Seems unnecessary
         add_action('init', array($this, 'rewrite_rule'), 0, 0.1);
-        add_action('template_include', array($this, 'rewrite_catch_template'));
+        add_action('template_include', array($this, 'rewrite_catch_template'), 99);
         add_action('after_switch_theme', array($this, 'reflush_rules'));
     }
 
@@ -63,9 +63,8 @@ class Rewrites
             // Checks to see if the template is in the parent theme otherwise it uses the child theme location
             include(get_template_part_acf('templates/template', 'inventory'));
             exit;
-        } elseif($template !== null){
-            include $template;
         }
+        return $template;
     }
 
     /**
