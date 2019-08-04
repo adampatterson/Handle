@@ -64,6 +64,7 @@ class Rewrites
             include(get_template_part_acf('templates/template', 'inventory'));
             exit;
         }
+
         return $template;
     }
 
