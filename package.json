@@ -4,6 +4,9 @@
     "author": "Adam Patterson",
     "description": "Handle, Child theme for Axe Theme",
     "private": true,
+    "bugs": {
+        "url": "https://github.com/adampatterson/Handle/issues"
+    },
     "directories": {
         "doc": "docs"
     },
@@ -17,9 +20,20 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "bower": "^1.8.0",
-        "cross-env": "^5.0.1",
-        "laravel-mix": "^2.0"
+        "bower": "^1.8.8",
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "2.2.2",
+        "cross-env": "^5.2",
+        "laravel-mix": "^4.1.2",
+        "laravel-mix-polyfill": "^1.1.0",
+        "laravel-mix-purgecss": "^4.1.0",
+        "vue-template-compiler": "^2.6.10"
     },
-    "dependencies": {}
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "node-sass": "^4.12.0",
+        "sass": "^1.22.10",
+        "sass-loader": "^7.3.1",
+        "glob-all": "^3.1.0"
+    }
 }
