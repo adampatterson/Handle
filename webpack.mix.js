@@ -15,6 +15,7 @@ let bundles = {
 
 let extractLibs = [
     'jquery',
+    'bootstrap',
 ]
 
 const purgecssWordpress = {
@@ -103,6 +104,7 @@ mix
                 This might be an issue as a lot of the templates are
                 in the parent theme
                  */
+                path.join(__dirname, '*.php'),
                 path.join(__dirname, 'templates/**/*.php'),
                 path.join(__dirname, '/assets/js/**/*.js'),
             ]),
