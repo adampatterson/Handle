@@ -129,30 +129,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/acf-json/group_5d464c99c30fd.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d464c99c30fd-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d464ca78d0da.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d464ca78d0da-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/acf-json/group_5d464d3a065ac.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/acf-json/group_5d464d3a065ac-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/assets/css/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
@@ -239,28 +215,12 @@
 		"oAP": "/lib/Core/Media.php",
 		"oF": 0
 		},
-	"/lib/Custom/Api.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/Custom/Api.php",
-		"oF": 0
-		},
 	"/lib/Custom/Custom.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/Custom/Custom.php",
-		"oF": 0
-		},
-	"/lib/Custom/Rewrites.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/Custom/Rewrites.php",
 		"oF": 0
 		},
 	"/lib/Helpers.php": {
@@ -294,6 +254,12 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -367,14 +333,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/templates/archive-movies.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/archive-movies.php",
-		"oF": 0
-		},
 	"/templates/format-video.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -383,28 +341,12 @@
 		"oAP": "/templates/format-video.php",
 		"oF": 0
 		},
-	"/templates/loop-movies.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/loop-movies.php",
-		"oF": 0
-		},
 	"/templates/partials/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/partials/.gitkeep",
-		"oF": 0
-		},
-	"/templates/single-movies.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/single-movies.php",
 		"oF": 0
 		},
 	"/templates/template-inventory.php": {
@@ -484,9 +426,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/webpack.mix-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		}
