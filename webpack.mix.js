@@ -116,6 +116,10 @@ mix
         }
     )
 
+    .autoload({
+        'jquery': ['$', 'window.jQuery', 'jQuery']
+    })
+
     .version()
 
 
