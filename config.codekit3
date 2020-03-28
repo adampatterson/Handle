@@ -333,28 +333,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/templates/format-video.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/format-video.php",
-		"oF": 0
-		},
 	"/templates/partials/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/partials/.gitkeep",
-		"oF": 0
-		},
-	"/templates/template-inventory.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/template-inventory.php",
 		"oF": 0
 		},
 	"/vendor/autoload.php": {
