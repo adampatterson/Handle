@@ -7,7 +7,7 @@
 		"uuidString": "72B07BFF-229F-4A49-9031-ABF7CE636EC0"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32147",
 "files": {
 	"/.bowerrc": {
 		"cB": 0,
@@ -215,6 +215,14 @@
 		"oAP": "/lib/Core/Media.php",
 		"oF": 0
 		},
+	"/lib/Core/Widgets.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/Core/Widgets.php",
+		"oF": 0
+		},
 	"/lib/Custom/Custom.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -231,12 +239,12 @@
 		"oAP": "/lib/Helpers.php",
 		"oF": 0
 		},
-	"/lib/init.php": {
+	"/lib/Init.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/lib/init.php",
+		"oAP": "/lib/Init.php",
 		"oF": 0
 		},
 	"/lib/Setup/Admin.php": {
@@ -245,6 +253,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/lib/Setup/Admin.php",
+		"oF": 0
+		},
+	"/lib/Widgets/Sample.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/Widgets/Sample.php",
 		"oF": 0
 		},
 	"/mix-manifest.json": {
@@ -1022,6 +1038,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1198,6 +1218,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1223,6 +1247,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1526,6 +1554,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1729,6 +1761,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2426,13 +2462,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
