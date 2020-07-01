@@ -15,7 +15,7 @@ class Init
             Init::class,
             Core\Media::class,
             Setup\Admin::class,
-            Custom\Custom::class
+            Custom::class
         ];
     }
 

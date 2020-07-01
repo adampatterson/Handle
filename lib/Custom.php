@@ -1,6 +1,6 @@
 <?php
 
-namespace Handle\Custom;
+namespace Handle;
 
 class Custom
 {
