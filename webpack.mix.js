@@ -92,11 +92,11 @@ const purgecssWordpress = {
 }
 
 mix
-    .setPublicPath('./')
-    .sass('src/scss/base.scss', 'assets/css').options(scssOptions)
+    .setPublicPath('./assets')
+    .sass('src/scss/base.scss', 'css').options(scssOptions)
     // Extract libraries requires ECMAScript 6 imports in your code.
-    // .js(bundles.all, 'assets/js/app.js').extract(extractLibs)
-    .js(bundles.all, 'assets/js/app.js')
+    // .js(bundles.all, 'js/app.js').extract(extractLibs)
+    .js(bundles.all, 'js/app.js')
 
     .purgeCss(
         {
