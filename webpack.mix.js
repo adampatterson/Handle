@@ -1,5 +1,4 @@
 let mix = require('laravel-mix')
-let glob = require('glob-all')
 
 require('laravel-mix-purgecss')
 
@@ -95,13 +94,13 @@ mix
     .setPublicPath('./assets')
     .sass('src/scss/base.scss', 'css').options(scssOptions)
     // Extract libraries requires ECMAScript 6 imports in your code.
-    // .js(bundles.all, 'js/app.js').extract(extractLibs)
     .js(bundles.all, 'js/app.js')
+    .extract(extractLibs)
 
     .purgeCss(
         {
             enabled: mix.inProduction(),
-            paths: glob.sync([
+            paths: [
                 /*
                 @todo: load parent theme templates
                 This might be an issue as a lot of the templates are
@@ -110,7 +109,7 @@ mix
                 path.join(__dirname, '*.php'),
                 path.join(__dirname, 'templates/**/*.php'),
                 path.join(__dirname, '/assets/js/**/*.js'),
-            ]),
+            ],
             extensions: ['html', 'js', 'php'],
 
             // Other options are passed through to Purgecss
