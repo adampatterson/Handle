@@ -9,4 +9,3 @@ require_once 'vendor/autoload.php';
 if (class_exists('Handle\\Init')) :
     Handle\Init::register_services();
 endif;
-er('movies_to_record', 'algolia_movie_to_record');

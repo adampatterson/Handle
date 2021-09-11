@@ -1,6 +1,6 @@
 <?php
 
-namespace Handle\Core;
+namespace Handle\Custom;
 
 class Media extends \Axe\Core\Media
 {
@@ -9,6 +9,7 @@ class Media extends \Axe\Core\Media
     {
         parent::__construct();
 
+        // Register new Media sizes
         add_image_size('background', 1600, 900, true);
 
         if (is_admin()) {
