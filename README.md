@@ -37,3 +37,8 @@ To see Handle in action checkout [Blade](https://github.com/adampatterson/Blade)
     ├── composer.json
     ├── package.json
     └── webpack.mix.js
+
+
+#### Local Development
+
+    ln -s ~/Sites/personal/Handle ~/Sites/personal/wordpress.test/wp-content/themes
