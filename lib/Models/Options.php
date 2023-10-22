@@ -1,8 +1,8 @@
 <?php
 
-namespace Handle\Custom;
+namespace Handle\Models;
 
-class Options extends \Axe\Core\Options
+class Options extends \Axe\Models\Options
 {
 
     public function register()
@@ -18,14 +18,23 @@ class Options extends \Axe\Core\Options
         */
     }
 
+    /**
+     * This will overwrite Axe Options allowing you
+     * to customize what's returned by Options
+     *
+     * @param $key
+     * @return array|mixed
+     */
     static function get($key = null)
     {
         // Specify ACF Groups used on the options page
         $options = [
-            //            'contact' => get_field('contact', 'option'),
+//            'contact'       => get_field('contact', 'option'),
+//            'theme'         => get_field('theme', 'option'),
+//            '404_page'      => get_field('404', 'option'),
         ];
 
-        if (array_key_exists($key, $options)) {
+        if (_has($key, $options)) {
             return $options[$key];
         }
 

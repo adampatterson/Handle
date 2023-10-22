@@ -1,10 +1,16 @@
 <?php
 
-namespace Handle\Custom;
+namespace Handle\Models;
 
-class Model extends \Axe\Core\Model
+class Content extends \Axe\Models\Content
 {
-/*
+
+    public function register()
+    {
+        parent::__construct();
+    }
+
+    /*
    static function getFeaturedNews()
     {
         return new \WP_Query([
