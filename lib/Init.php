@@ -14,8 +14,8 @@ class Init
         return [
             Init::class,
             Custom\Media::class,
-            Custom\Options::class,
-            Custom\Model::class,
+            Models\Options::class,
+            Models\Content::class,
 //            Custom\Network::class,  // Is this a network site?
             Setup\Admin::class,
             Custom::class
