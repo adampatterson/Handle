@@ -1,6 +1,11 @@
 {
-  "require": {
-  },
+  "description": "Handle, an Axe child theme",
+  "keywords": [
+    "WordPress",
+    "theme",
+    "child theme"
+  ],
+  "require": {},
   "autoload": {
     "psr-4": {
       "Handle\\": "lib"
