@@ -45,4 +45,8 @@ To see Handle in action checkout [Blade](https://github.com/adampatterson/Blade)
     ├── package.json
     └── webpack.mix.js
 
-Rename `lib/data_rename_to_use.php` to `lib/data.php` in order to add your own custom models.
+#### Local Development
+
+```
+ln -s ~/Sites/personal/Handle ~/Sites/personal/wordpress.test/wp-content/themes
+```

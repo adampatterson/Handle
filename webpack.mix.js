@@ -1,7 +1,11 @@
 let mix = require('laravel-mix')
 
 let scssOptions = {
-    processCssUrls: false
+    processCssUrls: true,
+    fileLoaderDirs: {
+        images: '/assets/images',
+        fonts: '/assets/fonts'
+    }
 }
 
 let bundles = {
@@ -15,11 +19,11 @@ let extractLibs = [
     'bootstrap',
 ]
 
-mix
-    .setPublicPath('./assets')
-    .sass('src/scss/base.scss', 'css').options(scssOptions)
+mix.setResourceRoot('../../')
+    .setPublicPath('./')
+    .sass('src/scss/base.scss', 'assets/css').options(scssOptions)
     // Extract libraries requires ECMAScript 6 imports in your code.
-    .js(bundles.all, 'js/app.js')
+    .js(bundles.all, 'assets/js/app.js')
     .extract(extractLibs)
 
     .autoload({

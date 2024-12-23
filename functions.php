@@ -1,4 +1,5 @@
 <?php
+
 // Allows for extending functions in the parent theme.
 require_once('lib/Helpers.php');
 
