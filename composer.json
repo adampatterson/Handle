@@ -1,5 +1,23 @@
 {
+  "description": "Handle, a child them for Axe",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+      "name": "Adam Patterson",
+      "email": "hello@adampatterson.ca"
+    }
+  ],
+  "keywords": [
+    "WordPress",
+    "theme"
+  ],
+  "support": {
+    "issues": "https://github.com/adampatterson/Axe/issues",
+    "source": "https://github.com/adampatterson/Axe"
+  },
   "require": {
+    "php": "^8.1, ^8.2",
+    "composer/installers": "^2.0"
   },
   "autoload": {
     "psr-4": {
