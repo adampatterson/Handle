@@ -3,6 +3,7 @@
   "description": "Handle, an Axe child theme",
   "type": "wordpress-theme",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Adam Patterson",
